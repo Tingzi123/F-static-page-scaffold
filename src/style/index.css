@@ -7,6 +7,8 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  margin: 0 auto;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +19,78 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  padding: 0 20%;
+  justify-content: space-between;
+  background-color: #3b5998;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left button {
+  align-self: center;
+  border: 0;
+  border-radius: 2px;
+  margin-left: 10px;
+  padding: 4px 10px;
+  background-color: #42b72a;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right button,
+.header-right-select {
+  background-color: #3b5998;
+  border: 0px;
+  color: white;
+}
+
+.main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  border-radius: 5px;
+  padding-bottom: 2%;
+  background-color: white;
+}
+
+.content-section figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20%;
+}
+
+.main-content figcaption {
+  text-align: center;
+  color: gray;
+}
+
+.main-content button {
+  border: 1px solid rgb(228, 217, 217);
+  padding: 5px 10px;
+  border-radius: 3px;
 }
